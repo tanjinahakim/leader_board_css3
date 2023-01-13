@@ -1,0 +1,67 @@
+/*-----------fonts-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;400&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+
+ /*------------------ 
+    common utilitis
+-------------------------*/
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*--------------------
+    Navigation Bar styles
+------------------------------*/
+.header{
+    width: 1440px;
+    height: 94px;
+    background: #562EFF;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+}
+.menu img{
+    Width: 40px;
+    Height: 50px;
+}
+.title{
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 300px;
+}
+nav li{
+    list-style: none;
+    padding-left: 35px;
+    color: #FFFFFF
+    ;
+}
+#profile{
+    height: 45px;
+    width: 45px;
+    padding-top: 15px;
+}
+
+/*---------------------
+    Media Queries
+---------------------------*/
+@media only screen and (max-width:688px) {
+    
+}
+
